@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AcFun搜索页 输入跳转ac号
 // @version      0.1
-// @description  如题，在acfun主站的搜索页面，输入已过审的正常ac号，形如ac201714，即可跳转至视频详情页
+// @description  详见 README 说明文档
 // @author       补档PO
 // @match        https://www.acfun.cn/search/*
 // @grant        none
