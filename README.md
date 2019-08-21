@@ -1,8 +1,11 @@
 # AcFun search aide
 ## AcFun 搜索小辅助
 
-如题，在acfun主站的搜索页面，输入已过审的正常ac号，形如ac201714<br>
-即可跳转至视频详情页 https://www.acfun.cn/v/ac201714
+如题，在acfun主站的搜索页面，输入已过审的正常ac号，形如 [ac3017313](https://www.acfun.cn/search/#query=ac3017313)<br>
+即可跳转至视频详情页 https://www.acfun.cn/v/ac3017313
+
+已知问题：在搜索页操作过一次之后，再次输入ac号，需要刷新页面<br>
+因为脚本只在进入搜索页时执行一次，如果做成循环执行模式，会耗费浏览器和系统资源
 
 原理挺简单的，我用了<br>
 javascript:window.open 函数打开一个新页面，页面地址由以下两部分组成<br>
