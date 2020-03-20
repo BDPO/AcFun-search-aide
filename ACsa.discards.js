@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         AcFun搜索页 输入跳转ac号
+// @name         AcFun搜索页 输入跳转ac号 V3
 // @version      0.3
 
 // @description  详见 README 说明文档
