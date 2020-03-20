@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         AcFun搜索页 输入跳转ac号
-// @version      0.1
+// @version      0.2
 // @description  详见 README 说明文档
 // @author       补档PO
-// @match        https://www.acfun.cn/search/*
+// @match        https://www.acfun.cn/search?keyword=*
 // @grant        none
 
 // ==/UserScript==
